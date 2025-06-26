@@ -34,8 +34,8 @@ spec:
                 - name: mongod
                   resources:
                     requests:
-                      memory: 1500Mi
-                      cpu: "0.5"
+                      memory: 2Gi
+                      cpu: "2.5"
                     limits:
                       memory: 2Gi
                       cpu: "1"
